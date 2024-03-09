@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		0F57B51D2B8FB87100CAE55F /* SplitTheBillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B51C2B8FB87100CAE55F /* SplitTheBillApp.swift */; };
-		0F57B51F2B8FB87100CAE55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B51E2B8FB87100CAE55F /* ContentView.swift */; };
+		0F57B51F2B8FB87100CAE55F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B51E2B8FB87100CAE55F /* MainView.swift */; };
 		0F57B5212B8FB87300CAE55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F57B5202B8FB87300CAE55F /* Assets.xcassets */; };
 		0F57B5242B8FB87300CAE55F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F57B5232B8FB87300CAE55F /* Preview Assets.xcassets */; };
+		0F57B52C2B93A36D00CAE55F /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B52B2B93A36D00CAE55F /* SplashScreen.swift */; };
+		0F57B52E2B94CBC900CAE55F /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B52D2B94CBC900CAE55F /* PieChartView.swift */; };
+		0F57B5302B94CD6A00CAE55F /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B52F2B94CD6A00CAE55F /* SideMenuView.swift */; };
+		0F57B5322B95053800CAE55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B5312B95053800CAE55F /* ContentView.swift */; };
+		0F57B5342B95145C00CAE55F /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B5332B95145C00CAE55F /* SideMenuHeaderView.swift */; };
+		0F57B5362B974A1800CAE55F /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B5352B974A1800CAE55F /* SideMenuRowView.swift */; };
+		0F57B5392B974D3B00CAE55F /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57B5382B974D3B00CAE55F /* SideMenuOptionModel.swift */; };
+		0F845B212B9B3F02008F9C37 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F845B202B9B3F02008F9C37 /* AboutView.swift */; };
+		0F845B232B9B42E7008F9C37 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F845B222B9B42E7008F9C37 /* ContactUsView.swift */; };
+		0F845B252B9B430D008F9C37 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F845B242B9B430D008F9C37 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F57B5192B8FB87100CAE55F /* SplitTheBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitTheBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F57B51C2B8FB87100CAE55F /* SplitTheBillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitTheBillApp.swift; sourceTree = "<group>"; };
-		0F57B51E2B8FB87100CAE55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F57B51E2B8FB87100CAE55F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0F57B5202B8FB87300CAE55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F57B5232B8FB87300CAE55F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F57B52B2B93A36D00CAE55F /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		0F57B52D2B94CBC900CAE55F /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		0F57B52F2B94CD6A00CAE55F /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		0F57B5312B95053800CAE55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F57B5332B95145C00CAE55F /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		0F57B5352B974A1800CAE55F /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		0F57B5382B974D3B00CAE55F /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
+		0F845B202B9B3F02008F9C37 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		0F845B222B9B42E7008F9C37 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		0F845B242B9B430D008F9C37 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,9 @@
 		0F57B51B2B8FB87100CAE55F /* SplitTheBill */ = {
 			isa = PBXGroup;
 			children = (
+				0F57B5372B974D1D00CAE55F /* ViewModels */,
+				0F57B52A2B93A30600CAE55F /* Views */,
 				0F57B51C2B8FB87100CAE55F /* SplitTheBillApp.swift */,
-				0F57B51E2B8FB87100CAE55F /* ContentView.swift */,
 				0F57B5202B8FB87300CAE55F /* Assets.xcassets */,
 				0F57B5222B8FB87300CAE55F /* Preview Content */,
 			);
@@ -65,6 +86,39 @@
 				0F57B5232B8FB87300CAE55F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F57B52A2B93A30600CAE55F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F845B292B9B4D82008F9C37 /* NavigationViews */,
+				0F57B51E2B8FB87100CAE55F /* MainView.swift */,
+				0F57B52B2B93A36D00CAE55F /* SplashScreen.swift */,
+				0F57B52D2B94CBC900CAE55F /* PieChartView.swift */,
+				0F57B5312B95053800CAE55F /* ContentView.swift */,
+				0F845B202B9B3F02008F9C37 /* AboutView.swift */,
+				0F845B222B9B42E7008F9C37 /* ContactUsView.swift */,
+				0F845B242B9B430D008F9C37 /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F57B5372B974D1D00CAE55F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0F57B5382B974D3B00CAE55F /* SideMenuOptionModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0F845B292B9B4D82008F9C37 /* NavigationViews */ = {
+			isa = PBXGroup;
+			children = (
+				0F57B5332B95145C00CAE55F /* SideMenuHeaderView.swift */,
+				0F57B5352B974A1800CAE55F /* SideMenuRowView.swift */,
+				0F57B52F2B94CD6A00CAE55F /* SideMenuView.swift */,
+			);
+			name = NavigationViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F57B51F2B8FB87100CAE55F /* ContentView.swift in Sources */,
+				0F57B52E2B94CBC900CAE55F /* PieChartView.swift in Sources */,
+				0F57B5342B95145C00CAE55F /* SideMenuHeaderView.swift in Sources */,
+				0F57B5392B974D3B00CAE55F /* SideMenuOptionModel.swift in Sources */,
+				0F845B232B9B42E7008F9C37 /* ContactUsView.swift in Sources */,
+				0F57B51F2B8FB87100CAE55F /* MainView.swift in Sources */,
+				0F845B212B9B3F02008F9C37 /* AboutView.swift in Sources */,
+				0F57B5322B95053800CAE55F /* ContentView.swift in Sources */,
+				0F57B5302B94CD6A00CAE55F /* SideMenuView.swift in Sources */,
+				0F57B5362B974A1800CAE55F /* SideMenuRowView.swift in Sources */,
 				0F57B51D2B8FB87100CAE55F /* SplitTheBillApp.swift in Sources */,
+				0F57B52C2B93A36D00CAE55F /* SplashScreen.swift in Sources */,
+				0F845B252B9B430D008F9C37 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,16 +338,18 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SplitTheBill/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashraf.SplitTheBill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -302,16 +368,18 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SplitTheBill/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashraf.SplitTheBill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
